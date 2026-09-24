@@ -100,7 +100,3 @@ xvlog -sv -L uvm -i tb rtl/*.v tb/axi4lite_if.sv tb/axi_gpio_pkg.sv tb/tb_top.sv
 xelab -L uvm tb_top -s sim
 xsim sim -R
 ```
-
-## Author
-
-이나경 (Na-Kyung Lee) — Soongsil University, Electronic Information Engineering
