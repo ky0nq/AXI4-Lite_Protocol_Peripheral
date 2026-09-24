@@ -10,7 +10,7 @@ Basys3 FPGA 위 MicroBlaze SoC에 연결되는 **AXI4-Lite 커스텀 Peripheral 
 ## System Architecture
 
 ```
-MicroBlaze ──AXI Interconnect──┬── gpio_v1_0  ×5  (GPIOA~E: 버튼 / FND / LED …)
+MicroBlaze ──AXI Interconnect ──┬── gpio_v1_0  ×5  (GPIOA~E: 버튼 / FND / LED …)
                                 ├── uart_v1_0      (TX/RX, interrupt)
                                 ├── timer_v1_0     (PSC/ARR, 1 ms tick interrupt)
                                 ├── I2C_v1_0       (I2C master → PCF8574T/HD44780 LCD)
