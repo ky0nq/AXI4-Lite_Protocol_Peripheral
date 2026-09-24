@@ -1,0 +1,34 @@
+# Vivado / Vitis 생성물
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.sdb
+*.rlx
+xsim.dir/
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/*/ip/*/*.dcp
+*.xpr
+vivado*.backup.*
+webtalk*.xml
+
+# Vitis
+vitis_workspace/.metadata/
+vitis_workspace/**/Debug/
+vitis_workspace/**/Release/
+*_platform/
+*.elf
+*.bit
+*.bin
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
