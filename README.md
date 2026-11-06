@@ -142,12 +142,21 @@ common/    delay, interrupt (AXI INTC 연동)
 | SPI | Write: `intr(write)` · `addr` · `write data` 순서로 시간 데이터(00:00:10:02) 쓰기 / Read: 같은 주소에서 `read data` 수신 |
 | I2C | Slave Address `0x27`(`010_0111`) + Write + ACK 후 LCD Controller 4-bit Nibble mode 데이터(`0x6D 0x69 0x9D 0x99`) + ACK |
 
-<p align="center">
-  <img src="docs/la_uart.png" alt="Logic Analyzer UART" width="100%"><br>
-  <img src="docs/la_spi_write.png" alt="Logic Analyzer SPI Write" width="100%"><br>
-  <img src="docs/la_spi_read.png" alt="Logic Analyzer SPI Read" width="100%"><br>
-  <img src="docs/la_i2c.png" alt="Logic Analyzer I2C" width="100%">
-</p>
+- UART
+
+<img src="docs/la_uart.png" alt="Logic Analyzer UART" width="100%">
+
+- SPI Write
+
+<img src="docs/la_spi_write.png" alt="Logic Analyzer SPI Write" width="100%">
+
+- SPI Read
+
+<img src="docs/la_spi_read.png" alt="Logic Analyzer SPI Read" width="100%">
+
+- I2C
+
+<img src="docs/la_i2c.png" alt="Logic Analyzer I2C" width="100%">
 
 ## Trouble Shooting: I2C LCD 추가 후 Button · UART 입력 누락
 
